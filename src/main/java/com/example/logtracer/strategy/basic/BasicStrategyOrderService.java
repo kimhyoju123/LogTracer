@@ -1,8 +1,5 @@
 package com.example.logtracer.strategy.basic;
 
-import com.example.logtracer.V4.inheritance.InheritanceOrderRepositoryV4;
-import com.example.logtracer.V4.inheritance.logic.InheritanceAbstractTemplate;
-import com.example.logtracer.V4.inheritance.logic.ServiceLogic;
 import com.example.logtracer.logtrace.LogTrace;
 import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;

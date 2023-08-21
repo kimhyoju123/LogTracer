@@ -1,7 +1,10 @@
 package com.example.logtracer.V4.inheritance.logic;
 
+import com.example.logtracer.template.InheritanceAbstractTemplate;
 import com.example.logtracer.V4.inheritance.InheritanceOrderServiceV4;
 import com.example.logtracer.logtrace.LogTrace;
+
+// 부모 클래스인 추상 클래스를 상속받고 추상 메소드롤 오버라이딩해서 핵심 로직을 구현한다.
 
 public class ControllerLogic extends InheritanceAbstractTemplate<String> {
 

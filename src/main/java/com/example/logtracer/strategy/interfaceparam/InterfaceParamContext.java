@@ -5,6 +5,9 @@ import com.example.logtracer.logtrace.LogTrace;
 import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 
+// Strategy 가 필드가 아닌 파라미터로 전달받도록 한다.
+// Context 를 실행하는 시점에 원하는 Strategy 를 전달할 수 있어 더 유연하다.
+
 @RequiredArgsConstructor
 public class InterfaceParamContext<T> {
 
