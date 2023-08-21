@@ -18,7 +18,7 @@ public class InterfaceParamOrderController {
     private final LogTrace trace;
     private final InterfaceParamOrderService interfaceParamOrderService;
 
-    @GetMapping("/interfaceparam/strategy/request")
+    @GetMapping("/strategy/interfaceparam/request")
     public String request(String itemId) {
 
         InterfaceParamContext<String> context = new InterfaceParamContext<>(trace);

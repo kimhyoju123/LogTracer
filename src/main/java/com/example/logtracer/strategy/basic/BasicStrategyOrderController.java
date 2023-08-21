@@ -20,7 +20,7 @@ public class BasicStrategyOrderController {
     private final LogTrace trace;
     private final BasicStrategyOrderService basicStrategyOrderService;
 
-    @GetMapping("/basic/strategy/request")
+    @GetMapping("/strategy/basic/request")
     public String request(String itemId) {
         Strategy<String> strategy = (trace) -> {
             basicStrategyOrderService.orderItem(itemId);
