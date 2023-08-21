@@ -23,8 +23,7 @@ class BasicStrategyOrderControllerTest {
     @Test
     void testRequestSuccess() throws Exception {
         String itemId = "test";
-
-        mockMvc.perform(MockMvcRequestBuilders.get("/request")
+        mockMvc.perform(MockMvcRequestBuilders.get("/strategy/basic/request")
                         .param("itemId", itemId))
                 .andExpect(MockMvcResultMatchers.status().isOk());
     }
@@ -32,7 +31,6 @@ class BasicStrategyOrderControllerTest {
     @Test
     void testRequestFail() {
         String itemId = "ex";
-
         assertThrows(Exception.class, () -> basicStrategyOrderController.request(itemId));
     }
 

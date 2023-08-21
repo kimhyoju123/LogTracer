@@ -23,7 +23,6 @@ class OrderControllerV5Test {
     @Test
     void testRequestSuccess() throws Exception {
         String itemId = "test";
-
         mockMvc.perform(MockMvcRequestBuilders.get("/v5/request")
                         .param("itemId", itemId))
                 .andExpect(MockMvcResultMatchers.status().isOk());
@@ -32,7 +31,6 @@ class OrderControllerV5Test {
     @Test
     void testRequestFail() {
         String itemId = "ex";
-
         assertThrows(Exception.class, () -> orderControllerV5.request(itemId));
     }
 
