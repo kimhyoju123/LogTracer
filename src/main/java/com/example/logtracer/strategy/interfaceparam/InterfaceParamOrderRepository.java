@@ -1,7 +1,6 @@
 package com.example.logtracer.strategy.interfaceparam;
 
 import com.example.logtracer.logtrace.LogTrace;
-import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
