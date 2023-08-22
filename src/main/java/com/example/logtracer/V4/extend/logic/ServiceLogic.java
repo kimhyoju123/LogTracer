@@ -1,5 +1,6 @@
 package com.example.logtracer.V4.extend.logic;
 
+import com.example.logtracer.V4.extend.ExtendsAbstractTemplate;
 import com.example.logtracer.V4.extend.ExtendsOrderRepositoryV4;
 import com.example.logtracer.logtrace.LogTrace;
 

@@ -1,7 +1,5 @@
 package com.example.logtracer;
 
-import com.example.logtracer.callback.TraceTemplate;
-import com.example.logtracer.logtrace.FieldLogTrace;
 import com.example.logtracer.logtrace.LogTrace;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

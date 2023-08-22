@@ -1,7 +1,6 @@
 package com.example.logtracer.V4.extend;
 
 import com.example.logtracer.V4.extend.logic.ControllerLogic;
-import com.example.logtracer.V4.extend.logic.ExtendsAbstractTemplate;
 import com.example.logtracer.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
