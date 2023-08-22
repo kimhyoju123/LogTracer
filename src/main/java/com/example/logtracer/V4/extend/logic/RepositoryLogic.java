@@ -1,8 +1,8 @@
-package com.example.logtracer.V4.inheritance.logic;
+package com.example.logtracer.V4.extend.logic;
 
 import com.example.logtracer.logtrace.LogTrace;
 
-public class RepositoryLogic extends InheritanceAbstractTemplate<Void> {
+public class RepositoryLogic extends ExtendsAbstractTemplate<Void> {
 
     public RepositoryLogic(LogTrace logTrace) {
         super(logTrace);

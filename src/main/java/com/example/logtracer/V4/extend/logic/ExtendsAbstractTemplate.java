@@ -1,4 +1,4 @@
-package com.example.logtracer.V4.inheritance.logic;
+package com.example.logtracer.V4.extend.logic;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;
@@ -20,7 +20,7 @@ import lombok.RequiredArgsConstructor;
 */
 
 @RequiredArgsConstructor
-public abstract class InheritanceAbstractTemplate<T> {
+public abstract class ExtendsAbstractTemplate<T> {
 
     private final LogTrace logTrace;
 

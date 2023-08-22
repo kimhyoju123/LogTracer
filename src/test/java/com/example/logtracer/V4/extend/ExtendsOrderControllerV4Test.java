@@ -1,4 +1,4 @@
-package com.example.logtracer.V4.inheritance;
+package com.example.logtracer.V4.extend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,18 +12,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class InheritanceOrderControllerV4Test {
+class ExtendsOrderControllerV4Test {
 
     @Autowired
     private MockMvc mockMvc;
 
     @Autowired
-    private InheritanceOrderControllerV4 inheritanceOrderControllerV4;
+    private ExtendsOrderControllerV4 extendsOrderControllerV4;
 
     @Test
     void testRequestSuccess() throws Exception {
         String itemId = "test";
-        mockMvc.perform(MockMvcRequestBuilders.get("/v4/inheritance/request")
+        mockMvc.perform(MockMvcRequestBuilders.get("/v4/extends/request")
                         .param("itemId", itemId))
                 .andExpect(MockMvcResultMatchers.status().isOk());
     }
@@ -31,7 +31,7 @@ class InheritanceOrderControllerV4Test {
     @Test
     void testRequestFail() {
         String itemId = "ex";
-        assertThrows(Exception.class, () -> inheritanceOrderControllerV4.request(itemId));
+        assertThrows(Exception.class, () -> extendsOrderControllerV4.request(itemId));
     }
 
 }
