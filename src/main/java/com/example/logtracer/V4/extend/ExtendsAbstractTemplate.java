@@ -1,4 +1,4 @@
-package com.example.logtracer.V4.extend.logic;
+package com.example.logtracer.V4.extend;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;

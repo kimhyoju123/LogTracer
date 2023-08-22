@@ -1,6 +1,5 @@
 package com.example.logtracer.V5;
 
-import com.example.logtracer.callback.TraceTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
