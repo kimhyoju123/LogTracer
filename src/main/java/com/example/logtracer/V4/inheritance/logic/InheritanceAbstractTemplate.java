@@ -1,10 +1,10 @@
-package com.example.logtracer.template;
+package com.example.logtracer.V4.inheritance.logic;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;
 import lombok.RequiredArgsConstructor;
 
-// 추상 클래스로 부모 클래스를 생성하고, 템플릿 메소드와 추상 메소들르 선언한다.
+// 추상 클래스로 부모 클래스를 생성하고, 템플릿 메소드와 추상 메소드를 선언한다.
 // 자식 클래스에서 추상 메소드인 call 을 오버라이딩해서 구현한다.
 /*
  Generic : 클래스 내부에서 타입을 지정하지 않고 사용자 호출에 의해 타입이 지정됨(객체 생성 시점에 타입 결정)

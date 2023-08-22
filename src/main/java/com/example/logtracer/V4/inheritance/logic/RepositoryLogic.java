@@ -1,6 +1,5 @@
 package com.example.logtracer.V4.inheritance.logic;
 
-import com.example.logtracer.template.InheritanceAbstractTemplate;
 import com.example.logtracer.logtrace.LogTrace;
 
 public class RepositoryLogic extends InheritanceAbstractTemplate<Void> {

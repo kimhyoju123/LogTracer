@@ -1,7 +1,6 @@
 package com.example.logtracer.V4;
 
 import com.example.logtracer.logtrace.LogTrace;
-import com.example.logtracer.template.AbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

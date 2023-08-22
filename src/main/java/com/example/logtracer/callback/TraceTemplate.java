@@ -27,7 +27,8 @@ public class TraceTemplate {
             return result;
         } catch (Exception e) {
             trace.exception(status, e);
-            throw e; }
+            throw e;
+        }
     }
 
 }

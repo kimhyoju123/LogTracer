@@ -1,8 +1,8 @@
 package com.example.logtracer.V4.inheritance;
 
+import com.example.logtracer.V4.inheritance.logic.InheritanceAbstractTemplate;
 import com.example.logtracer.V4.inheritance.logic.RepositoryLogic;
 import com.example.logtracer.logtrace.LogTrace;
-import com.example.logtracer.template.InheritanceAbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

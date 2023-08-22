@@ -1,14 +1,12 @@
 package com.example.logtracer.V4;
 
 import com.example.logtracer.logtrace.LogTrace;
-import com.example.logtracer.template.AbstractTemplate;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// 익명 클래스로 추상 메소드롤 오버라이딩해서 핵심 로직을 구현하고, 템플릿 메소드를 호출하면 된다.
+// 익명 클래스로 추상 메소드를 오버라이딩해서 핵심 로직을 구현하고, 템플릿 메소드를 호출하면 된다.
 // 템플릿 메소드 패턴의 단점은 상속을 활용하기 때문에 부모, 자식 클래스간의 결합도가 증가한다.
-// 클래스 다이어그램을 보면 화살표가 자식->부모로 향해 있기 때문에 자식은 부모 클래스에 의존적이다.
 // 이러한 단점을 보완할 수 있는 패턴이 전략 패턴이다. => Strategy
 
 @RestController

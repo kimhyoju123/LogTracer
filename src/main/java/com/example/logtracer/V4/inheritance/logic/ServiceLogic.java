@@ -1,6 +1,5 @@
 package com.example.logtracer.V4.inheritance.logic;
 
-import com.example.logtracer.template.InheritanceAbstractTemplate;
 import com.example.logtracer.V4.inheritance.InheritanceOrderRepositoryV4;
 import com.example.logtracer.logtrace.LogTrace;
 
