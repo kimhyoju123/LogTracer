@@ -1,6 +1,7 @@
 package com.example.logtracer.strategy.basic;
 
 import com.example.logtracer.logtrace.LogTrace;
+import com.example.logtracer.strategy.Context;
 import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,7 +28,7 @@ public class BasicStrategyOrderController {
             return "ok";
         };
 
-        BasicContext<String> context = new BasicContext<>(trace, strategy);
+        Context<String> context = new Context<>(trace, strategy);
         return context.execute(itemId, "BasicStrategyOrderController.request()");
     }
 

@@ -1,4 +1,4 @@
-package com.example.logtracer.strategy.interfaceparam;
+package com.example.logtracer.strategy;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;

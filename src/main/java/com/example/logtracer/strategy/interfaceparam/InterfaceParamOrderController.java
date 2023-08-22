@@ -1,6 +1,7 @@
 package com.example.logtracer.strategy.interfaceparam;
 
 import com.example.logtracer.logtrace.LogTrace;
+import com.example.logtracer.strategy.InterfaceParamContext;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

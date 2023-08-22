@@ -1,6 +1,7 @@
 package com.example.logtracer.strategy.basic;
 
 import com.example.logtracer.logtrace.LogTrace;
+import com.example.logtracer.strategy.Context;
 import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -19,7 +20,7 @@ public class BasicStrategyOrderService {
             return null;
         };
 
-        BasicContext<Void> context = new BasicContext<>(trace, strategy);
+        Context<Void> context = new Context<>(trace, strategy);
         context.execute(itemId, "BasicStrategyOrderService.orderItem()");
     }
 

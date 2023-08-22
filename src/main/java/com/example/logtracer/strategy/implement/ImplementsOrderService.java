@@ -1,6 +1,7 @@
 package com.example.logtracer.strategy.implement;
 
 import com.example.logtracer.logtrace.LogTrace;
+import com.example.logtracer.strategy.Context;
 import com.example.logtracer.strategy.Strategy;
 import com.example.logtracer.strategy.implement.logic.ImplementsServiceLogic;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +16,7 @@ public class ImplementsOrderService {
 
     public void orderItem(String itemId) {
         Strategy<Void> strategy = new ImplementsServiceLogic(implementsOrderRepository);
-        ImplementsContext<Void> context = new ImplementsContext<>(trace, strategy);
+        Context<Void> context = new Context<>(trace, strategy);
         context.execute(itemId, "ImplementsOrderService.orderItem()");
     }
 

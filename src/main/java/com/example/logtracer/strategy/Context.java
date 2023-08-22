@@ -1,12 +1,11 @@
-package com.example.logtracer.strategy.implement;
+package com.example.logtracer.strategy;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;
-import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class ImplementsContext<T> {
+public class Context<T> {
 
     private final LogTrace logTrace;
     private final Strategy<T> strategy;
