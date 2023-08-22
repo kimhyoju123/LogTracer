@@ -1,14 +1,15 @@
-package com.example.logtracer.strategy.delegation;
+package com.example.logtracer.strategy.implement;
 
 import com.example.logtracer.TraceStatus;
 import com.example.logtracer.logtrace.LogTrace;
+import com.example.logtracer.strategy.Strategy;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class DelegationContext<T> {
+public class ImplementsContext<T> {
 
     private final LogTrace logTrace;
-    private final DelegationStrategy<T> strategy;
+    private final Strategy<T> strategy;
 
     public T execute(String itemId, String message) {
         TraceStatus status = null;

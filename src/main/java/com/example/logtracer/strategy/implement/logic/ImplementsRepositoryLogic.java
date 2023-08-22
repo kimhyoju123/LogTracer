@@ -1,6 +1,8 @@
-package com.example.logtracer.strategy.delegation;
+package com.example.logtracer.strategy.implement.logic;
 
-public class DelegationRepositoryLogic implements DelegationStrategy {
+import com.example.logtracer.strategy.Strategy;
+
+public class ImplementsRepositoryLogic implements Strategy {
 
     @Override
     public Void call(String itemId) {
